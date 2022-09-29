@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST College</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="Project-4-imgg/Project-4-img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="header2">
+        <nav>
+            <a href="index.html"><img src="Project-4-imgg/Project-4-img/Logo1.png" alt="logo"></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+        
+    </section>
+
+
+    <!-- -----------About Us Detail---------- -->
+
+    <section class="aboutus">
+        <div class="row">
+            <div class="about1">
+               <h1>We are the World's Best Univeristy</h1>
+               <p>ST College has been accredited by the National Accreditation and Assessment Council (NAAC) with grade 'A++'. The university has secured the IET's international accreditation for six of its engineering programmes. Amity Medical programs are recognised by Medical Council of India. Distance mode programs of the university are recognized by the Distance Education Bureau. The business programs are accredited by the Accreditation Council for Business Schools and Programs (ACBSP).</p>
+               <a class="btn1 btn2" href="">EXPLORE NOW</a>
+            </div>
+            <div class="about1">
+           <img src="Project-4-imgg/Project-4-img/about2.jpg" alt="IMAGE">
+            </div>
+        </div>
+
+    </section>
+
+
+    
+    
+
+    <!-- ------Footer-------->
+
+    <section class="footer">
+        <h3>About Us</h3>
+        <p>ST College, formally the University of ST, is a collegiate university located in New Delhi, India. It was founded in 1922 by an Act of the <br> Central Legislative Assembly and is recognized as an Institute of Eminence by the University Grants Commission and <br>accredited by the NAAC with grade 'A++'.</p>
+        <div class="icon">
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+           <a href="https://twitter.com/sunny8268_" target="_blank"> <i class="fa fa-twitter-square"></i></a>
+           <a href="https://www.instagram.com/sunny8268_/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sunnykr8268/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            <a href="https://github.com/sanon8268" target="_blank"><i class="fa fa-github-square"></i></a>
+        </div>
+        <p>Made with <i class="fa fa-heart"></i> by <span>Sunny Kumar</span></p>
+    </section>
+
+
+
+
+
+    <!-- JavaScript for toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showmenu() {
+            navLinks.style.right = "0";
+        }
+        function hidemenu() {
+            navLinks.style.right = "-202px";
+        }
+    </script>
+</body>
+
+</html>
